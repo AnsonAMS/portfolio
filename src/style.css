@@ -41,6 +41,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
     font-size: 30px;
@@ -86,4 +90,42 @@ p {
 .logo {
     height: 80px;
     margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+   display: flex;
+   justify-content: space-around; 
+   padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 50px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+}  
+
+.project-container {
+    display: flex;
+    justify-content: space-around; 
 }
