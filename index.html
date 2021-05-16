@@ -14,16 +14,16 @@
       <nav>
           <img class=logo src="src/images/Logo.png" alt="Anson's logo">
           <ul>
-              <li>About me</li>
-              <li>Projects</li>
-              <li>Contacts</li>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact-me">Contact</a></li>
           </ul>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
             <h1>Anson</h1>
             <p>Front-end engineer</p>
-            <div class="button">About me</div>
+            <div class="button"><a href="#about-me">About me</a></div>
         </div>
         <div class="socials">
             <div>
@@ -44,26 +44,52 @@
         </div>
       </div>
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello. My name is Anson. I am a front-end web developer and drawing enthousiast.</p>
-        </div>
+        </div>     
         <div class="headshot-container">
             <img class="headshot" src="" alt="Anson's headshot"/>
         </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
-            <div class="project-card"></div>
-            <div class="project-card"></div>
-            <div class="project-card"></div>
-            <div class="project-card"></div>
+            <div class="project-card">
+                <img class="project-image" src="" alt="Project One Image" />
+                <h3>Project One</h3>
+                <p class="subtext">This is my project</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="" alt="Project Two Image" />
+                <h3>Project Two</h3>
+                <p class="subtext">This is my project</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="" alt="Project Three Image" />
+                <h3>Project Three</h3>
+                <p class="subtext">This is my project</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="" alt="Project Four Image" />
+                <h3>Project Four</h3>
+                <p class="subtext">This is my project</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="">View here</a></p>
+            </div>
         </div>
     </section>
-    <footer></footer>
-    
+    <footer id="contact-me"></footer>
+        <h2>Contact</h2>
+       <!-- contact form gebruiken -->
+       <p>ansonams@outlook.com</p>
 
 
     <script src="src/script.js"></script>
