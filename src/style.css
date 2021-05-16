@@ -165,3 +165,10 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.hamburger {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
