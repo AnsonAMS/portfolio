@@ -32,13 +32,11 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
-    
-    margin: 50px;
-    border: solid red 1px;
 }
 
 li {
     text-decoration: none;
+    margin-right: 50px;
 }
 
 h1 {
@@ -191,7 +189,6 @@ a {
     .ul {
         display: none;
         background-color: #2b2c38;
-        margin: 0px;
     }
 
     ul.show {
