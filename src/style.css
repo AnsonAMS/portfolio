@@ -92,7 +92,17 @@ p {
 
 .button:active {
     background-color: #A9A9A9;
-;    color: #808080;
+    color: #808080;
+}
+
+.footer-button {
+    width: 200px;
+    height: 55px;
+    border-radius: 40px;;
+    background-color: palegreen;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
 }
 
 .socials {
